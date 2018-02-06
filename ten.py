@@ -11,8 +11,8 @@ FLAGS = None
 
 def main(_):
   # Import data
-    train = pd.read_csv('D:/ISB/Term3/SecondVisit/DLIOT/Group/assignment/assignment/assignment/iris_training.csv')
-    test  = pd.read_csv('D:/ISB/Term3/SecondVisit/DLIOT/Group/assignment/assignment/assignment/iris_test.csv')
+    train = pd.read_csv('D:/./iris_training.csv')
+    test  = pd.read_csv('D:/./iris_test.csv')
       # Create the model
     train_ohe = pd.get_dummies(train['Species'])
     f= ['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']
